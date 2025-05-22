@@ -59,7 +59,7 @@ function atualizarExpELevel() {
 
     // Atualiza os elementos na página
     document.getElementById('level').textContent = level;
-    document.getElementById('exp-counter').textContent = exp + " dias vividos";
+    document.getElementById('exp-counter').textContent = exp;
 
     // Atualizar a descrição com a idade atual
     document.getElementById('descricao').textContent = `Sou um homem de ${idade.anos} anos com autismo e tenho um senso de justiça muito grande, ou seja,
